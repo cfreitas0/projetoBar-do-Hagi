@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section div.background-section{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position:absolute;
+}
+
+section div.background-section video{
+    width: 800px;
+    height: 800px;
+    object-position: center;
+}
+
+section div.box{
+    width: 50%;
+}
