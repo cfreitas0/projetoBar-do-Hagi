@@ -1,2 +1,86 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    width: 100%;
+    margin: auto;
+}
+
+.video-container video {
+    width: 100%; /* define a largura do vídeo para 100% do contêiner */
+    height: 300px; /* define a altura do vídeo para 100% do contêiner */
+    object-fit: cover; /* define como o vídeo deve ser dimensionado */
+  }
+  
+.ima-container img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+section{
+    width: 100%;
+    min-width: 100vh;
+}
+
+section div.background-section{
+    width: 100%;
+
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-color: rgb(85, 84, 84);
+    color: white;
+    box-shadow: inset 6px 6px 13px 40px rgba(0, 0, 0, 0.274)  ;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px%;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section#img00{
+    background-image: url("../imagens/cbrocolis.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img01{
+    background-image: url("../imagens/Snapinst.app_244452083_2245443965594553_5094469674131895900_n_1080.jpg");
+    background-position: right center;
+    background-size: cover;
+    
+
+}
+
+section#img02{
+    background-image: url("../imagens/Snapinst.app_244452083_2245443965594553_5094469674131895900_n_1080.jpg");
+    background-position: right center;
+}
