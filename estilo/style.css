@@ -3,28 +3,20 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-}
+} 
 
-html, body{
-    min-height: 100vh;
-    background-color: rgb(12, 8, 8);
-}
 
 nav{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-  
-
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
 }
-
-
 
 body{
-    width: 100%;
-    margin: auto;
+    background-image: linear-gradient(to top, #ff0000, #0000, #000000);
+    
 }
-
 
 .video-container{
     width: 100%;
@@ -60,65 +52,32 @@ body{
 }
 
 main{
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
+    
+     min-width: 300px;
+     max-width: 1000px;
+     margin: auto;
+     margin-bottom: 10px;
+     padding: 0px;
+     background-color: rgb(0, 0, 0);
+     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.979) ;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
 }
+
+div img{
+    width: 100%; 
+}
+
+div.fejuca{
+    
+
+    
+}
+
 
 footer{
     background-color: black;
     text-align: center;
     color: white;
     padding: 50px;
-}
-
-section{
-    width: 100%;
-    min-width: 100vh;
-}
-
-section div.background-section{
-    width: 100%;
-
-}
-
-section.normal{
-    background-color: white;
-}
-
-section.imagem{
-    background-color: rgb(85, 84, 84);
-    color: white;
-    box-shadow: inset 6px 6px 13px 40px rgba(0, 0, 0, 0.274)  ;
-    background-attachment: fixed;
-}
-
-section.imagem > p{
-    display: inline-block;
-    padding: 5px%;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-}
-
-section > p{
-    padding-bottom: 2em;
-}
-
-section#img00{
-    background-image: url("../imagens/cbrocolis.jpg");
-    background-position: right center;
-    background-size: cover;
-}
-
-section#img01{
-    background-image: url("../imagens/Snapinst.app_244452083_2245443965594553_5094469674131895900_n_1080.jpg");
-    background-position: right center;
-    background-size: cover;
-    
-
-}
-
-section#img02{
-    background-image: url("../imagens/Snapinst.app_244452083_2245443965594553_5094469674131895900_n_1080.jpg");
-    background-position: right center;
 }
