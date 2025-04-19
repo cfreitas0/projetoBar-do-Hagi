@@ -61,11 +61,9 @@ body{
 
 
 .video-container ::after {
-    content:;
-    width: inherit;
     position: fixed;
     inset: 0;
-    background: linear-gradient();
+    
 }
 
 
@@ -101,10 +99,15 @@ div img{
 
 div.fejuca{
     
-
-    
 }
 
+div.baiao{
+    width: 90px;
+    position: absolute;
+    padding: 10px;
+    top: 34%;
+    z-index: 1;
+}
 
 footer{
     background-color: black;
