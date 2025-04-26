@@ -23,15 +23,13 @@ nav > a{
     font-weight: bold;
 }
 
-
-nav > a:hover {
-    transition: 0.3s;
+nav img:hover {
     transform: scale(1.5);
+    transition: 0.6s;
 }
 
-
 body{
-   background-color: brown;
+   background-color: rgb(177, 33, 33);
 }
 
 .video-containerr{
@@ -83,7 +81,7 @@ body{
 
 main{
     
-     min-width: 300px;
+     min-width: 270px;
      max-width: 1000px;
      margin: auto;
      margin-bottom: 9px;
@@ -96,10 +94,40 @@ main{
 
 
 div.quadro{
-    border: 1px solid rgb(255, 255, 255);
-    width: 200px;
+    transform: scale(1.0);
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 1px solid rgb(148, 30, 30);
+    width: 700px;
     height: 200px;
+    position: absolute;
+    transform: translate(20% , 50px);
+    border-radius: 10px;
+    
+    
+
 }
+
+div.quadroo{
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 1px solid rgba(202, 28, 28, 0.884);
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    transform: translate(20% , 330px);
+    border-radius: 10px;
+}
+
+
+div.quadrooo{
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 1px solid rgba(202, 28, 28, 0.884);
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    transform: translate(20% , 610px);
+    border-radius: 10px;
+}
+
 
 
 div img{
