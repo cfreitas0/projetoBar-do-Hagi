@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -25,7 +27,7 @@ nav > a{
 
 nav img:hover {
     transform: scale(1.5);
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 body{
@@ -93,57 +95,81 @@ main{
 }
 
 
-div.quadro{
-    transform: scale(1.0);
-    background-color: rgba(0, 0, 0, 0.596);
-    border: 1px solid rgb(148, 30, 30);
-    width: 700px;
-    height: 200px;
-    position: absolute;
-    transform: translate(20% , 50px);
-    border-radius: 10px;
-    
-    
-
-}
-
-div.quadroo{
-    background-color: rgba(0, 0, 0, 0.596);
-    border: 1px solid rgba(202, 28, 28, 0.884);
-    width: 700px;
-    height: 200px;
-    position: absolute;
-    transform: translate(20% , 330px);
-    border-radius: 10px;
-}
-
-
-div.quadrooo{
-    background-color: rgba(0, 0, 0, 0.596);
-    border: 1px solid rgba(202, 28, 28, 0.884);
-    width: 700px;
-    height: 200px;
-    position: absolute;
-    transform: translate(20% , 610px);
-    border-radius: 10px;
-}
-
-
-
 div img{
-    width: 100%; 
-}
-
-div.fejuca{
+    position: relative;
+    display: inline-block;
+    width: 100%;
     
 }
 
-div.baiao{
-    width: 90px;
+.bloco{
+   
+    min-width: 370px;
+   height: 100px;
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%);
+}
+   
+.bloco h1{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(180, 182, 184);
+    text-align: center;
+    font-size: 32px;
+    padding: 18px;
+    
+}
+
+.blocoo{
+    min-width: 370px;
+    height: 100px;
     position: absolute;
-    padding: 10px;
-    top: 34%;
-    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.blocoo h1{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(233, 234, 235);
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.blocooo{
+     min-width: 370px;
+    height: 100px;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.blocooo h1{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.ambiente{
+    width: 100%;
+    height: 600px;
 }
 
 footer{
